@@ -1,7 +1,7 @@
 {
-    "name": "phpmyadmin/phpmyadmin",
+    "name": "wp-cloud/phpmyadmin",
     "type": "application",
-    "description": "MySQL web administration tool",
+    "description": "Deployment ready version of phpmyadmin-all-languages. All Languages; without: doc, examples, scripts & setup folders!",
     "keywords": ["phpmyadmin","mysql","web"],
     "homepage": "https://www.phpmyadmin.net/",
     "license": "GPL-2.0+",
@@ -22,19 +22,5 @@
     "non-feature-branches": ["RELEASE_.*"],
     "require": {
         "php": ">=5.5.0"
-    },
-    "require-dev": {
-        "satooshi/php-coveralls": "~0.6",
-        "phpunit/phpunit": "~4.1",
-        "codacy/coverage": "dev-master",
-        "phpunit/phpunit-selenium": "~1.2",
-        "squizlabs/php_codesniffer": "2.*",
-        "phpmyadmin/coding-standard": ">=0.1.0"
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://www.phpmyadmin.net"
-        }
-    ]
+    }
 }
