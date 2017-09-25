@@ -4,14 +4,6 @@
     "description": "Deployment ready version of phpmyadmin-all-languages. All Languages; without: doc, examples, setup folders!",
     "keywords": ["phpmyadmin","mysql","web"],
     "homepage": "https://www.phpmyadmin.net/",
-    "license": "GPL-2.0+",
-    "authors": [
-        {
-            "name": "The phpMyAdmin Team",
-            "email": "developers@phpmyadmin.net",
-            "homepage": "https://www.phpmyadmin.net/team/"
-        }
-    ],
     "support": {
         "forum": "https://www.phpmyadmin.net/support/",
         "issues": "https://github.com/phpmyadmin/phpmyadmin/issues",
@@ -19,6 +11,14 @@
         "docs": "https://docs.phpmyadmin.net/",
         "source": "https://github.com/phpmyadmin/phpmyadmin"
     },
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "The phpMyAdmin Team",
+            "email": "developers@phpmyadmin.net",
+            "homepage": "https://www.phpmyadmin.net/team/"
+        }
+    ],
     "require": {
         "php": ">=5.5.0",
         "ext-mbstring": "*",
@@ -27,7 +27,7 @@
         "ext-pcre": "*",
         "ext-json": "*"
     },
-	"suggest": {
+    "suggest": {
         "ext-openssl": "Cookie encryption",
         "ext-curl": "Updates checking",
         "ext-opcache": "Better performance",
